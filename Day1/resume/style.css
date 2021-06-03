@@ -1,0 +1,17 @@
+*{
+border:1px solid red;
+}
+.divcontainer
+{
+    display: flex;
+    border:2px solid black;
+    justify-content: center;
+    height: fit-content;
+}
+.divitem
+{
+   border:2px solid black;
+   padding: 5px;
+   justify-content: center;
+   
+}
