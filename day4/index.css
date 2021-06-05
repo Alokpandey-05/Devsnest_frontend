@@ -1,0 +1,61 @@
+body{
+    background-color:rgba(213, 223, 158, 0.657);
+}
+.clock{
+   height: 400px;
+   width:400px;
+   border: 20px solid plum;
+    border-radius: 400px 400px 400px;
+    margin: 15%;
+}
+.line1
+{
+       border: 1px solid black;
+    height: 1%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    border-radius: 50%;
+}
+.line2
+{
+    border: 2px solid black;
+    height: 38%;
+    width: 1%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    top: 50;
+    top: 49%;
+    border-radius: 50%;
+}
+.line3
+{
+    order: 2px solid black;
+    height: 45%;
+    width: 1%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 30%;
+    left: 65%;
+    transform: rotate(40deg);
+    border-radius: 50%;
+}
+ h2{
+    text-align: center;
+    top:40%;
+    /* border:400%; */
+    padding-top:10%;
+    /* bottom:50%; */
+    /* bottom:50%; */
+   /* bottom:50%;
+    /* top: 50%; */
+     /* margin: 50%;  */
+}
